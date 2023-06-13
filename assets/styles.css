@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=Poppins&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar {
+    padding: 5px 80px;
+}
+
+.logo {
+    width: 100px;
+    height: fit-content;
+    border-radius: 50%;
+}
+
+section {
+    margin-bottom: 150px !important;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+
+#products {
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#products hr {
+    margin-bottom: 80px !important;
+    width: 60px;
+    height: 2px;
+    background: #cf8c21;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact hr {
+    margin-bottom: 80px !important;
+    width: 60px;
+    height: 2px;
+    background: #cf8c21;
+}
+
+.subs-form {
+    padding: 30px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.basic-info-col {
+    padding: 30px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.basic-info {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list li i {
+    font-size: 22px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+}
+
+.whatsapp img {
+    width: 60px;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .navbar {
+        padding: 4px 50px;
+    }
+
+    .logo {
+        width: 80px;
+        height: fit-content;
+    }
+
+    .jumbotron h1 {
+        font-size: 26px;
+    }
+
+    .jumbotron p {
+        font-size: 16px;
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+    }
+
+    .contact-info {
+        padding-left: 16px !important;
+    }
+
+    .basic-info-col {
+        padding: 10px 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .basic-info {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .basic-info p {
+        padding-left: 16px !important;
+    }
+
+    .contact-list li i {
+        font-size: 18px;
+    }
+}
